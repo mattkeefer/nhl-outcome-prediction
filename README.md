@@ -71,7 +71,7 @@ Home team, Away team, proportion of shots a team made (home and away), proportio
 actions with corsi (home and away), proportion of actions with fenwick (home and away),
 proportion of penalties (home and away), proportion of hits (home and away), proportion of
 takeaways (home and away), and finally our class column, which determines if a game was a
-home win or an away win. Corsi and fenwick are both defined in the analysis section.
+home win or an away win. Corsi and fenwick are both advanced metrics which are defined in the analysis section.
 <br/>
 ### Methods
 For feature selection, a variety of game time metrics were considered as these would relate to
