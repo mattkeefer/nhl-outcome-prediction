@@ -111,6 +111,7 @@ indicated that the best cross-validated accuracy was obtained with k-values 7 an
 graph showing the accuracy vs. k-value is shown below in Figure 3. The maximum
 accuracy was achieved in predicting classifications for the test data using k = 24 at
 62.28%.
+<br/><br/>
 [INSERT IMAGE HERE]
 <br/>
 ##### Perceptron Model
@@ -233,3 +234,15 @@ level was that of shootouts. Shootouts occur only when two teams are inseparable
 regulation and overtime, and at that point, statistics from the game are irrelevant. Consequently,
 creating a new predictor for if a game reaches OT and/or a shootout would likely improve scores
 all around.
+
+<br/>
+
+## References
+Barger, Colton. “Trying to Predict NHL Game Outcomes with ML and Why It’s Difficult.” Medium, 2022, https://medium.com/codex/trying-to-predict-nhl-game-outcomes-with-ml-and-why-its-difficult-aaac4d2a690b.
+<br/><br/>
+Pischedda, Gianni. “Predicting NHL Match Outcomes with ML Models.” International Journal of Computer Applications, vol. 101, no. 9, 2014, pp. 15-22. http://dx.doi.org/10.5120/17714-8249.
+<br/><br/>
+Lee, Christian. “Advanced Hockey Stats 101: Corsi (Part 1 of 4).” Medium, Hockey Stats, 30 Nov. 2020, https://medium.com/hockey-stats/advanced-hockey-stats-101-corsi-part-1-of-4-29d0a9fb1f95.
+<br/><br/>
+Lee, Christian. “Advanced Hockey Stats 101: Fenwick (Part 2 of 4).” Medium, Hockey Stats, 31 Dec. 2020, https://medium.com/hockey-stats/advanced-hockey-stats-101-fenwick-part-2-of-4-a8796b8188d.
+
