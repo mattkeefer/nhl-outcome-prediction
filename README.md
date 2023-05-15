@@ -112,7 +112,7 @@ graph showing the accuracy vs. k-value is shown below in Figure 3. The maximum
 accuracy was achieved in predicting classifications for the test data using k = 24 at
 62.28%.
 <br/><br/>
-[INSERT IMAGE HERE]
+![Figure 1. Data Clustering](images/fig1.png)
 <br/>
 ##### Perceptron Model
 The perceptron model was used to find the best linear model for classifying and
