@@ -103,7 +103,7 @@ these features. A pair plot depicting these features was generated and can be fo
 Figure 1. The standard 10-fold validation was utilized during the training process to
 determine the best combination of hyperparameters. In addition, when applicable, the
 dataset was further split into roughly 75-25 train-validation / test sets.
-###### Figure 1. Data Clustering
+<br/><br/>
 To visualize the distance of nodes from centroids in each cluster based on the number of
 clusters, an elbow plot was generated using WCSS vs. K (Figure 2). The optimal k-value
 was then determined using 10-fold cross-validation and accuracy comparison. The results
@@ -111,7 +111,8 @@ indicated that the best cross-validated accuracy was obtained with k-values 7 an
 graph showing the accuracy vs. k-value is shown below in Figure 3. The maximum
 accuracy was achieved in predicting classifications for the test data using k = 24 at
 62.28%.
-<br/><br/>
+<br/>
+###### Figure 1. Data Clustering
 ![Figure 1. Data Clustering](images/fig1.png)
 <br/>
 ##### Perceptron Model
@@ -145,8 +146,11 @@ The features used in this model were corsi (home and away) and proportion of hit
 away), as they demonstrated strong clustering during the initial analysis. This result is significant
 because, as stated in the background, hockey predictors typically only achieve up to 60%
 accuracy.
-<br/><br/>
-[INSERT GRAPHS HERE]
+<br/>
+###### Figure 2. WCSS vs. K for K-Means Model
+![Figure 2. WCSS vs. K for K-Means Model](images/fig2.png)
+###### Figure 3. Cross Validation Accuracy vs. K for K-Means Model
+![Figure 3. Cross Validation Accuracy vs. K for K-Means Model](images/fig3.png)
 <br/>
 In the linear perceptron model, the highest accuracy that was attainable was 53% using all of the
 features in the dataset. The weight vector was weighed heaviest on the home team, home
@@ -161,8 +165,13 @@ teams’ games were separated into comparisons of home_fenwick vs away_fenwick a
 home_corsi vs away_corsi for home games, and home_fenwick vs away_fenwick and
 home_corsi vs away_corsi for away games, respectively, as seen in Figure 4a, Figure 4b and
 Figure 4c.
-<br/><br/>
-[INSERT IMAGES]
+<br/>
+###### Figure 4a. Boston Bruins fenwick and corsi comparisons
+![Figure 4a. Boston Bruins fenwick and corsi comparisons](images/fig4.png)
+###### Figure 4b. Carolina Hurricanes fenwick and corsi comparisons
+![Figure 4b. Carolina Hurricanes fenwick and corsi comparisons](images/fig5.png)
+###### Figure 4c. New Jersey Devils fenwick and corsi comparisons
+![Figure 4c. New Jersey Devils fenwick and corsi comparisons](images/fig6.png)
 <br/>
 As seen in the home game comparisons for the Bruins, Hurricanes and Devils, the more shooting
 attempts that the away team creates, the more likely the game will end in a result for the home
@@ -194,8 +203,11 @@ contradict or support the findings for the Bruins, Hurricanes and Devils discuss
 the two conclusions together results in the conclusion that the best teams are more efficient at
 scoring their opportunities, whereas the teams who accumulate less points don’t create as many
 high probability scoring chances.
-<br/><br/>
-[INSERT IMAGES]
+<br/>
+###### Figure 5a. NHL home_corsi vs. away_corsi
+![Figure 5a. NHL home_corsi vs. away_corsi](images/fig7.png)
+###### Figure 5b. NHL home_fenwick vs. away_fenwick
+![Figure 5b. NHL home_fenwick vs. away_fenwick](images/fig8.png)
 <br/>
 Figure 5c and Figure 5d do not lead to as direct a conclusion as Figure 5a and Figure 5b. Figure
 5c represents the home_corsi vs away_fenwick scores for the entire league, or in other words, the
@@ -203,8 +215,11 @@ home team’s total shots against the away team’s shots on target. The cluster
 any results but the few points on both ends of the cluster support the conclusion that more
 efficient away teams win more away games. Figure 5d, also seems to lead to the conclusion that
 despite an away team taking more shots, a more efficient home team will likely win the game.
-<br/><br/>
-[INSERT IMAGES]
+<br/>
+###### Figure 5c. NHL home_corsi vs. away_fenwick
+![Figure 5c. NHL home_corsi vs. away_fenwick](images/fig9.png)
+###### Figure 5d. NHL home_fenwick vs. away_corsi
+![Figure 5d. NHL home_fenwick vs. away_corsi](images/fig10.png)
 
 <br/>
 
